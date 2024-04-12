@@ -1,6 +1,7 @@
 import React from 'react'
 import recipes from "../recipes"
 import Swal from 'sweetalert2';
+import chefPic from "../images/Mario and Adrian b.jpg"
 
 const Menu = () => {
 
@@ -47,6 +48,9 @@ const Menu = () => {
                 </div>)
             }
         </div>
+        
+           
+          
     </div>
   )
 }

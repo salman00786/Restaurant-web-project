@@ -4,6 +4,7 @@ import Nav from "./components/Nav.js";
 import Main from './components/Main.js';
 import Menu from './components/Menu.js';
 import Footer from './components/Footer.js';
+import MainDetails from './components/MainDetails.js';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <Nav/>
     <Main/>
     <Menu/>
+    <MainDetails/>
     <Footer/>
     
     

@@ -199,7 +199,7 @@ input, label{
 
 .menu-container img{
   width: 100%;
-  height: 233px;
+  height: 300px;
   border-radius: 8px;
 }
 
@@ -213,6 +213,9 @@ input, label{
   justify-content: space-between;
 }
 
+
+
+
 .orderbtn{
   padding: 5px 12px;
   margin-bottom: 20px;
@@ -220,11 +223,74 @@ input, label{
   font-weight: 600;
 }
 
+
+/* ********************************************* */
+ .main-Center{
+  width: 100%;
+  margin: auto;
+  background-color: lightgrey;
+ }
+ .testText{
+  padding-left: 45%;
+ }
+ .center{
+  text-align: center;
+ }
+ .testimonial-menu{
+  width: 1800px;
+  padding: 30px;
+  display: flex;
+  margin: auto;
+  justify-content: space-evenly;
+ }
+.tItems h3{
+  color: #F4CE14;
+}
+ .tItems{
+  height: 200px;
+  width: 200px;
+  background-color: #495e57;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 10px;;
+}
+.starRatingImg{
+  height: 100px;
+}
+.userProfileImg{
+  height: 80px;
+  border-radius: 10px;
+}
+.chefMenu{
+  width: 1400px;
+  margin: auto;
+  padding-top: 50px;
+ 
+}
+.flexChefMenu{
+  width: 1400px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+  
+}
+.flexChefMenu p{
+  max-width: 60ch;
+}
+.chefImg{
+  height: 350px;
+  width: 500px;
+  border-radius: 15px;
+}
+/* ************************************************ */
+
 footer section{
   padding: 10px 13%;
   display: flex;
   justify-content: space-between;
   align-items: start;
+  background-color: lightgrey;
 }
 
 .company-info img{
@@ -251,6 +317,29 @@ footer ul li{
 
 
 @media screen and (max-width: 768px){
+ .testText{
+  padding-left: 35%;
+ }
+
+ .flexChefMenu p {
+  max-width: 50ch;
+}
+.chefMenu{
+  padding: 10px;
+}
+
+.flexChefMenu{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  float: right; 
+}
+.chefImg{
+  width: 90%;
+}
+
+
+
   .menu-icon {
     display: block;
   }
@@ -271,6 +360,9 @@ footer ul li{
     padding: 10px 8%;
   }
 
+  #chefId{
+    background-color: #fff;
+  }
   nav ul li a{
     color: #fff;
   }
