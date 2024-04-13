@@ -267,6 +267,10 @@ input, label{
   padding-top: 50px;
  
 }
+
+.confirm{
+ text-align: center;
+}
 .flexChefMenu{
   width: 1400px;
   margin: auto;
@@ -282,6 +286,7 @@ input, label{
   height: 350px;
   width: 500px;
   border-radius: 15px;
+  box-shadow: 12px 12px 2px 1px rgba(2, 2, 8, 0.2);
 }
 /* ************************************************ */
 
@@ -322,10 +327,10 @@ footer ul li{
  }
 
  .flexChefMenu p {
-  max-width: 50ch;
+  max-width: 45ch;
 }
 .chefMenu{
-  padding: 10px;
+  padding: 5px;
 }
 
 .flexChefMenu{
@@ -335,7 +340,8 @@ footer ul li{
   float: right; 
 }
 .chefImg{
-  width: 90%;
+  width: 75%;
+  box-shadow: 12px 12px 2px 1px rgba(2, 2, 8, 0.2);
 }
 
 

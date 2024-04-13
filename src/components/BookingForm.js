@@ -29,7 +29,7 @@ const BookingForm = (props) => {
 
                     <div>
                     <label htmlFor='book-time'>Choose Time: </label>
-                    <select id='book-time' value={times} onChange={(e) => {setTimes(e.target.value)}}>
+                    <select id='book-time' value={times} required onChange={(e) => {setTimes(e.target.value)}}>
                         <option value="">Select a Time</option>
                         {
                             props.availableTimes.availableTimes.map(availableTimes => {return <option key={availableTimes}>{availableTimes}</option>})
@@ -39,7 +39,7 @@ const BookingForm = (props) => {
 
                     <div>
                         <label htmlFor = "book-guests">Number of Guests:</label>
-                        <input id='book-guests' min="1" value={guests} onChange={(e) => setGuests(e.target.value)}/>
+                        <input id='book-guests' min="1" value={guests} onChange={(e) => setGuests(e.target.value)} required/>
                     </div>
 
                     <div>
